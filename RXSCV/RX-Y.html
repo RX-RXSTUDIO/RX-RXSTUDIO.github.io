@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<style>
+a:link{
+text-decoration:none;
+color:black;
+}
+  a:hover
+  {
+  text-decoration:underline;
+color:black;
+  }
+</style>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Bootstrap v4.4.1 (https://getbootstrap.com/)-->
+    <link rel="stylesheet" type="text/css" href="https://cdn.staticfile.org/twitter-bootstrap/4.4.1/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="http://kaseidis.gitee.io/interesting_gadgets/marketing_generator/main.css">
+    <script src="http://kaseidis.gitee.io/interesting_gadgets/marketing_generator/main.js"></script>
+	<style>
+		.header {
+        border-radius: 10px;
+        padding: 30px;
+        text-align: center;
+        background-color:rgba(225,225,225,0.9);
+        }
+	.footer {
+  padding: 20px;
+  text-align: center;
+  background-color:rgba(225,225,225,0.9);
+  margin-top: 20px;
+  border-radius: 10px;
+}	
+    </style>
+    <title>营销号生成器</title>
+	<style>
+    @import url(md.css);
+</style>
+</head>
+<div class="demo"></div>
+<div class="header">
+  <h1>RXSTUDIO-S-营销号生成器</h1>
+  
+</div>
+<body onload="onload()">
+<div class="card">    
+	<div class="container">
+        <div class="row">
+            <div class="col-sm-5 col-xs-12">
+				
+                <form action="javascript:void(0);" autocomplete="off">
+                    <div class="form-group">
+                        <lable for="subject">主体：</lable>
+                        <input type="text" id="subject" class="form-control" placeholder="马健飞" required />
+                    </div>
+                    <div class="form-group">
+                        <lable for="event">事件：</lable>
+                        <input type="text" id="event" class="form-control" placeholder="不能吞下去" required />
+                    </div>
+                    <div class="form-group">
+                        <lable for="event2">另一种说法：</lable>
+                        <input type="text" id="event2" class="form-control" placeholder="马健飞太大了，吞下去容易噎着" required />
+                    </div>
+                    <input type="submit" value="生成" class="btn btn-primary" onclick="generate()" />
+                </form>
+            </div>
+            <div class="col-sm-7 col-xs-12">
+                <textarea id="result" onchange="auto_grow(this)" oninput="auto_grow(this)"
+                    placeholder="	马健飞不能吞下去是怎么回事呢？马健飞相信大家都很熟悉，但是马健飞不能吞下去是怎么回事呢，下面就让小编带大家一起了解吧。&#013;&#010;	马健飞不能吞下去，其实就是马健飞太大了，吞下去容易噎着，大家可能会很惊讶马健飞怎么会不能吞下去呢？但事实就是这样，小编也感到非常惊讶。&#013;&#010;	这就是关于马健飞不能吞下去的事情了，大家有什么想法呢，欢迎在评论区告诉小编一起讨论哦！"></textarea>
+            </div>
+        </div>
+    </div>
+
+    <hr />
+    <div id="footer">
+        Made by: RX
+        <br />
+    </div>
+</div>
+	<div class="footer">
+  <h2>RXSTUDIO</h2>
+  
+  <p><br />RXSTUDIO-S采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。</p>
+ 
+</div>
+</body>
+
+</html>
